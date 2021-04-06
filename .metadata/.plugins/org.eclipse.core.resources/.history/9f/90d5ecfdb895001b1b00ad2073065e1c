@@ -1,0 +1,46 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Exercise_01_210405 {
+
+	public static void main(String[] args) {
+		// 
+		
+	int [] point = new int[10];
+	int grade = 90;
+	Scanner scan = new Scanner(System.in);
+	
+	
+	System.out.println("Input score : ");
+	
+	for(int n=1; n<=10; n++) {
+		System.out.print( n +"의 score : ");
+		point[n-1] = scan.nextInt();
+		
+	}
+	
+	System.out.println("---------- Histogram ----------");
+	
+	int result = 0;
+	 
+		for(int i=0; i<10; i++) {
+			
+			System.out.print(String.format("%2d", grade) + " : ");
+			
+			for(int j=0; j<10; j++) {
+				
+				result = point[j]/grade;
+				for(int p=0; p<result; p++) {
+					
+				System.out.print("#");
+				}
+			}
+			
+			grade = grade - 10;
+			result = 0;
+			System.out.println("");
+			
+		}//for
+	}
+}

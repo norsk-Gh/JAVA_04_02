@@ -1,0 +1,25 @@
+package com.javalec.base;
+
+import java.util.Calendar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Calendar calendar = Calendar.getInstance();   // --> 이건 생성자(new)는 안씀!!
+		
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(calendar.MONTH);
+		
+		
+		System.out.println(year + " : " + month);
+		
+		
+		
+		
+
+	}
+
+}

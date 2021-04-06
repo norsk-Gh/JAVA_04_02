@@ -1,0 +1,82 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Quiz_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	//선언문
+		
+	int selectNum = 0;	
+	Scanner scan = new Scanner(System.in);
+		
+	// 배열 값들
+	// 고객 배열
+	// 고객 잔고 배열	
+		
+		
+		
+	//입금 ~ 종료 나오게 하기
+	
+		
+	while(selectNum == 4)	{
+	System.out.println("1. 입금");System.out.println("2. 출금");
+	System.out.println("3. 현황");System.out.println("4. 종료");
+
+	System.out.println("번호를 선택하세요! ");
+	selectNum = scan.nextInt();
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	// 번호 선택
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	// 고객번호 입력시키기 + 금액 입력시키기	
+		
+		
+		
+		
+		
+		
+		
+	// 입금 시스템
+		
+		
+		
+		
+	// 출금 시스템
+		
+		
+		
+		
+		
+	// >>땡큐 결과 나타내기<<	
+		
+		
+		
+		
+		
+	}//while	
+	System.out.println(" >>>> Thank you <<<< ");
+
+		
+		
+	}
+
+}
