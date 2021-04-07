@@ -19,11 +19,6 @@ public class SumEvenOdd {
 		
 	};          // new 뒤에 있는게 생성자다! 팀장님이 쓰려면 new 쓰고서 써야한다.
 	
-	
-	
-	
-	
-	
 	// Method (함수)
 	public int sumCalc(int num1, int num2) {                // 	public 	으로 써야지 다른데서도 쓸 수 있음..private 으로 쓰면 이 클라스에서만 사용
 		int sum = 0;

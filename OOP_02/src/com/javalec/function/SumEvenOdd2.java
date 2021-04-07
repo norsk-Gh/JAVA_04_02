@@ -8,20 +8,13 @@ public class SumEvenOdd2 {
 	int num = 0;     // 이거를 쓰는 이유가.. 썸칼에서 이미 평균을 구했다! 근데 다른 메소드에서
 					 // 평규 값을 구하는게 필요할떄.. 아니면 연동될떄 또 평균을 구할 필요가 없으니까..
 					  // 이렇게 위에다가 선언처럼 빼서 쓰는게 필드값이다.	
-	
-	
-	
+						// 전언변수이기때문이다!!
 	
 	// Constructor
 	
 	public SumEvenOdd2() {
 		
 	};
-	
-	
-	
-	
-	
 	
 	
 	// Method (함수)
@@ -45,6 +38,8 @@ public class SumEvenOdd2 {
 		}//else
 		System.out.println(Odd + "입니다.");
 		}//public
+
+	
 
 	
 
