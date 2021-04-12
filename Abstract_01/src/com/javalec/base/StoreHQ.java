@@ -4,9 +4,6 @@ public abstract class StoreHQ {
 
 	//field
 	
-	
-	
-	
 	//constructor
 	public StoreHQ() {
 		
